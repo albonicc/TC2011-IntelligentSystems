@@ -1,0 +1,1 @@
+cat knn5euclidean.csv  | tr "," ":" | cut -d: -f1,3 | tr ":" ","> output.csv
